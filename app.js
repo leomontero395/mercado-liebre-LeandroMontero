@@ -4,7 +4,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-//Poner a disposcion el contenido de la carpeta 'public' desde cualquier archivo/ruta.
+//Poner a disposcion el contenido de la carpeta 'public' desde cualquier archivo/ruta. 
+
 //app.use(express.static(path.resolve(__dirname, './public')));
 app.use(express.static('public'));
 
